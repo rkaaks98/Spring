@@ -13,7 +13,6 @@ import java.util.List;
 public class User2Service {
 
     private final User2Mapper user2Mapper;
-    private final User1Mapper user1Mapper;
 
     public void register(User2DTO user2DTO) {
         user2Mapper.insertUser2(user2DTO);
@@ -28,6 +27,6 @@ public class User2Service {
         user2Mapper.updateUser2(user2DTO);
     }
     public void delete(String uid) {
-        user1Mapper.deleteUser1(uid);
+        user2Mapper.deleteUser2(uid);
     }
 }
