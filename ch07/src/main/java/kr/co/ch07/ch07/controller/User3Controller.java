@@ -6,6 +6,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.List;
 
@@ -15,21 +16,46 @@ public class User3Controller {
 
     private final User3Service service;
 
+    @GetMapping("/user3/list")
     public String list(Model model){
 
+        List<User3DTO> user3DTOList = service.findAll();
 
-        return null;
+        model.addAttribute("user3DTOList", user3DTOList);
+
+        return "/user3/list";
     }
 
     @GetMapping("/user3/register")
     public String register(){
-        return null;
+        return "/user3/register";
     }
+    @PostMapping("/user3/register")
+    public String register(User3DTO user3DTO){
+        service.register(user3DTO);
+
+        return "redirect:/user3/list";
+    }
+    @GetMapping("/user3/modify")
     public String modify(String uid, Model model){
-        return null;
+
+        User3DTO user3DTO = service.findById(uid);
+
+        model.addAttribute("user3DTO", user3DTO);
+
+        return "/user3/modify";
+    }
+    @PostMapping("/user3/modify")
+    public String modify(User3DTO user3DTO){
+
+        service.modify(user3DTO);
+
+        return "redirect:/user3/list";
     }
 
+    @GetMapping("user3/delete")
     public String delete(String uid){
-        return null;
+        service.delete(uid);
+        return "redirect:/user3/list";
     }
 }

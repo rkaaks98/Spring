@@ -17,15 +17,15 @@
     <th>주소</th>
     <th>관리</th>
   </tr>
-  <tr>
-    <td>ㅁㄴㅇㅁㄴㅇ</td>
-    <td>ㅁㄴㅇㅁㄴㅇ</td>
-    <td>ㅁㄴㅇㅁㄴㅇ</td>
-    <td>ㅁㄴㅇㅁㄴㅇ</td>
-    <td>ㅁㅇㄴㅁㄴㅇ</td>
+  <tr th:each="user3:${user3DTOList}">
+    <td>[[${user3.uid}]]</td>
+    <td>[[${user3.name}]]</td>
+    <td>[[${user3.birth}]]</td>
+    <td>[[${user3.hp}]]</td>
+    <td>[[${user3.addr}]]</td>
     <td>
-      <a th:href="@{/user1/modify}">수정</a>
-      <a th:href="@{/user1/delete}">삭제</a>
+      <a th:href="@{/user3/modify(uid=${user3.uid})}">수정</a>
+      <a th:href="@{/user3/delete(uid=${user3.uid})}">삭제</a>
     </td>
   </tr>
 </table>
