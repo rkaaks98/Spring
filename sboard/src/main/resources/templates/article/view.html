@@ -3,20 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>글보기</title>
-    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
 </head>
 <body>
     <div id="wrapper">
-        <header>
-            <h3>
-                <a href="/index.html" class="title">Board Project</a>
-            </h3>
-            <p>
-                <a href="../user/info.html" class="info">홍길동</a>님 반갑습니다.
-                <a href="#">[로그아웃]</a>
-            </p>
-            </p>
-        </header>
+        <th:block th:include="/article/_header.html"/>
         <main id="article">
             <section class="view">
                 <nav>
@@ -48,8 +39,8 @@
                 
                 <div>
                     <a href="#" class="btn btnRemove">삭제</a>
-                    <a href="./modify.html" class="btn btnModify">수정</a>
-                    <a href="./list.html" class="btn btnList">목록</a>
+                    <a th:href="@{/article/modify}" class="btn btnModify">수정</a>
+                    <a th:href="@{/article/list}" class="btn btnList">목록</a>
                 </div>
 
                 <!-- 댓글목록 -->
@@ -62,7 +53,7 @@
                         <p class="content">댓글 샘플 입니다.</p>                        
                         <div>
                             <a href="#" class="remove">삭제</a>
-                            <a href="#" class="modify">수정</a>
+                            <a th:href="@{/article/modify}" class="modify">수정</a>
                         </div>
                     </article>
 
@@ -84,12 +75,7 @@
 
             </section>
         </main>
-        <footer>
-            <p>
-                <span class="copyright">Copyrightⓒ 김철학(개발에반하다.)</span>
-                <span class="version">v1.0.1</span>
-            </p>
-        </footer>
+        <th:block th:include="/article/_footer.html"/>
     </div>    
 </body>
 </html>
