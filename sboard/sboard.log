@@ -1,0 +1,419 @@
+2025-03-24T09:13:18.399+09:00  INFO 7724 --- [sboard] [restartedMain] kr.co.sboard.sboard.SboardApplication    : Starting SboardApplication using Java 17.0.12 with PID 7724 (C:\Users\lotte6\Desktop\Workspace\Spring\sboard\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\Workspace\Spring\sboard)
+2025-03-24T09:13:18.401+09:00  INFO 7724 --- [sboard] [restartedMain] kr.co.sboard.sboard.SboardApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-24T09:13:18.440+09:00  INFO 7724 --- [sboard] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-24T09:13:18.441+09:00  INFO 7724 --- [sboard] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-24T09:13:18.967+09:00  INFO 7724 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-24T09:13:18.980+09:00  INFO 7724 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2025-03-24T09:13:19.086+09:00  WARN 7724 --- [sboard] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.sboard.sboard]' package. Please check your configuration.
+2025-03-24T09:13:19.370+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-24T09:13:19.380+09:00  INFO 7724 --- [sboard] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-24T09:13:19.380+09:00  INFO 7724 --- [sboard] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-03-24T09:13:19.414+09:00  INFO 7724 --- [sboard] [restartedMain] o.a.c.c.C.[.[localhost].[/sboard]        : Initializing Spring embedded WebApplicationContext
+2025-03-24T09:13:19.415+09:00  INFO 7724 --- [sboard] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 974 ms
+2025-03-24T09:13:19.536+09:00  INFO 7724 --- [sboard] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-24T09:13:19.579+09:00  INFO 7724 --- [sboard] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-03-24T09:13:19.611+09:00  INFO 7724 --- [sboard] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-24T09:13:19.868+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-24T09:13:19.894+09:00  INFO 7724 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-24T09:13:20.149+09:00  INFO 7724 --- [sboard] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32b268e
+2025-03-24T09:13:20.151+09:00  INFO 7724 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-24T09:13:20.202+09:00  WARN 7724 --- [sboard] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-24T09:13:20.218+09:00  INFO 7724 --- [sboard] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-24T09:13:20.223+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@a28df7c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5ef81235)
+2025-03-24T09:13:20.223+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5a438a17) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1063fddf)
+2025-03-24T09:13:20.224+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5cfc1390) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@420bcb80)
+2025-03-24T09:13:20.224+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@45ef2e4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@bdc6ab5)
+2025-03-24T09:13:20.224+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@370088cd) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2bcb1266)
+2025-03-24T09:13:20.224+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@58711c29) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@30904c50)
+2025-03-24T09:13:20.224+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3e5fc6f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@704e9657)
+2025-03-24T09:13:20.224+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@208e5c23) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@124e66ae)
+2025-03-24T09:13:20.224+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3ee4e60c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3a1c23a9)
+2025-03-24T09:13:20.494+09:00  INFO 7724 --- [sboard] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-24T09:13:20.499+09:00  INFO 7724 --- [sboard] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-24T09:13:20.535+09:00  WARN 7724 --- [sboard] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-24T09:13:20.901+09:00  WARN 7724 --- [sboard] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 13d48082-d841-40a0-9979-3670a418f910
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-03-24T09:13:20.915+09:00  INFO 7724 --- [sboard] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-03-24T09:13:21.041+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-24T09:13:21.078+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/sboard'
+2025-03-24T09:13:21.085+09:00  INFO 7724 --- [sboard] [restartedMain] kr.co.sboard.sboard.SboardApplication    : Started SboardApplication in 3.321 seconds (process running for 4.055)
+2025-03-24T09:14:01.342+09:00  INFO 7724 --- [sboard] [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/sboard]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-24T09:14:01.343+09:00  INFO 7724 --- [sboard] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-24T09:14:01.344+09:00  INFO 7724 --- [sboard] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-24T09:16:25.225+09:00  INFO 7724 --- [sboard] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2025-03-24T09:16:25.227+09:00  INFO 7724 --- [sboard] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-24T09:16:25.289+09:00  INFO 7724 --- [sboard] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-24T09:16:25.292+09:00  INFO 7724 --- [sboard] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-24T09:16:25.294+09:00  INFO 7724 --- [sboard] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-24T09:16:25.298+09:00  INFO 7724 --- [sboard] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-24T09:16:25.364+09:00  INFO 7724 --- [sboard] [restartedMain] kr.co.sboard.sboard.SboardApplication    : Starting SboardApplication using Java 17.0.12 with PID 7724 (C:\Users\lotte6\Desktop\Workspace\Spring\sboard\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\Workspace\Spring\sboard)
+2025-03-24T09:16:25.364+09:00  INFO 7724 --- [sboard] [restartedMain] kr.co.sboard.sboard.SboardApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-24T09:16:25.516+09:00  INFO 7724 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-24T09:16:25.518+09:00  INFO 7724 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-03-24T09:16:25.551+09:00  WARN 7724 --- [sboard] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.sboard.sboard]' package. Please check your configuration.
+2025-03-24T09:16:25.587+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-24T09:16:25.588+09:00  INFO 7724 --- [sboard] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-24T09:16:25.588+09:00  INFO 7724 --- [sboard] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-03-24T09:16:25.602+09:00  INFO 7724 --- [sboard] [restartedMain] o.a.c.c.C.[.[localhost].[/sboard]        : Initializing Spring embedded WebApplicationContext
+2025-03-24T09:16:25.603+09:00  INFO 7724 --- [sboard] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 237 ms
+2025-03-24T09:16:25.629+09:00  INFO 7724 --- [sboard] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-24T09:16:25.632+09:00  INFO 7724 --- [sboard] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-24T09:16:25.641+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-24T09:16:25.642+09:00  INFO 7724 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-03-24T09:16:25.652+09:00  INFO 7724 --- [sboard] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@378d5da3
+2025-03-24T09:16:25.652+09:00  INFO 7724 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-03-24T09:16:25.653+09:00  WARN 7724 --- [sboard] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-24T09:16:25.653+09:00  INFO 7724 --- [sboard] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-24T09:16:25.653+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@545eb43a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7d7708c3)
+2025-03-24T09:16:25.654+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@204a228b) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@453ac58b)
+2025-03-24T09:16:25.654+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@64e44672) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@21107b3d)
+2025-03-24T09:16:25.654+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@503f5bee) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@433adaff)
+2025-03-24T09:16:25.654+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@52bd33c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@27409937)
+2025-03-24T09:16:25.654+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@d0a561a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@18728866)
+2025-03-24T09:16:25.654+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@431b0a67) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@60b1ba12)
+2025-03-24T09:16:25.654+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3fd49a98) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@336914bc)
+2025-03-24T09:16:25.654+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@283a7884) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@453626bb)
+2025-03-24T09:16:25.669+09:00  INFO 7724 --- [sboard] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-24T09:16:25.669+09:00  INFO 7724 --- [sboard] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-24T09:16:25.682+09:00  WARN 7724 --- [sboard] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-24T09:16:25.764+09:00  WARN 7724 --- [sboard] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 631c02e2-8d8f-4e14-bb0d-0cf2d8bd93a1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-03-24T09:16:25.765+09:00  INFO 7724 --- [sboard] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-03-24T09:16:25.784+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-24T09:16:25.792+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/sboard'
+2025-03-24T09:16:25.797+09:00  INFO 7724 --- [sboard] [restartedMain] kr.co.sboard.sboard.SboardApplication    : Started SboardApplication in 0.454 seconds (process running for 188.767)
+2025-03-24T09:16:25.799+09:00  INFO 7724 --- [sboard] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-24T09:17:03.750+09:00  INFO 7724 --- [sboard] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-03-24T09:17:03.751+09:00  INFO 7724 --- [sboard] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-24T09:17:03.812+09:00  INFO 7724 --- [sboard] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-24T09:17:03.814+09:00  INFO 7724 --- [sboard] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-24T09:17:03.815+09:00  INFO 7724 --- [sboard] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-03-24T09:17:03.818+09:00  INFO 7724 --- [sboard] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-03-24T09:17:03.878+09:00  INFO 7724 --- [sboard] [restartedMain] kr.co.sboard.sboard.SboardApplication    : Starting SboardApplication using Java 17.0.12 with PID 7724 (C:\Users\lotte6\Desktop\Workspace\Spring\sboard\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\Workspace\Spring\sboard)
+2025-03-24T09:17:03.878+09:00  INFO 7724 --- [sboard] [restartedMain] kr.co.sboard.sboard.SboardApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-24T09:17:04.030+09:00  INFO 7724 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-24T09:17:04.032+09:00  INFO 7724 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-03-24T09:17:04.064+09:00  WARN 7724 --- [sboard] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.sboard.sboard]' package. Please check your configuration.
+2025-03-24T09:17:04.095+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-24T09:17:04.096+09:00  INFO 7724 --- [sboard] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-24T09:17:04.096+09:00  INFO 7724 --- [sboard] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-03-24T09:17:04.111+09:00  INFO 7724 --- [sboard] [restartedMain] o.a.c.c.C.[.[localhost].[/sboard]        : Initializing Spring embedded WebApplicationContext
+2025-03-24T09:17:04.111+09:00  INFO 7724 --- [sboard] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 231 ms
+2025-03-24T09:17:04.134+09:00  INFO 7724 --- [sboard] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-24T09:17:04.137+09:00  INFO 7724 --- [sboard] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-24T09:17:04.145+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-24T09:17:04.146+09:00  INFO 7724 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-03-24T09:17:04.155+09:00  INFO 7724 --- [sboard] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d4999fa
+2025-03-24T09:17:04.155+09:00  INFO 7724 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-03-24T09:17:04.156+09:00  WARN 7724 --- [sboard] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-24T09:17:04.156+09:00  INFO 7724 --- [sboard] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-24T09:17:04.156+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@17e89ee8) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@73ae002f)
+2025-03-24T09:17:04.156+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3269c1e9) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@17d7f0e6)
+2025-03-24T09:17:04.157+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@449b232a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4737ecee)
+2025-03-24T09:17:04.157+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3b2d1b68) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@13559c2b)
+2025-03-24T09:17:04.157+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@eca7f18) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@76e2a2b3)
+2025-03-24T09:17:04.157+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@25c7115c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1a4c650b)
+2025-03-24T09:17:04.157+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@47a3ebe5) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@24b73e98)
+2025-03-24T09:17:04.157+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@39e786a3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@40fad8a9)
+2025-03-24T09:17:04.157+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@18deef90) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@50041ed)
+2025-03-24T09:17:04.171+09:00  INFO 7724 --- [sboard] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-24T09:17:04.171+09:00  INFO 7724 --- [sboard] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-24T09:17:04.183+09:00  WARN 7724 --- [sboard] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-24T09:17:04.258+09:00  WARN 7724 --- [sboard] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ec0e0ad9-aa78-4274-91c5-0622df3fccfa
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-03-24T09:17:04.258+09:00  INFO 7724 --- [sboard] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-03-24T09:17:04.276+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-24T09:17:04.284+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/sboard'
+2025-03-24T09:17:04.287+09:00  INFO 7724 --- [sboard] [restartedMain] kr.co.sboard.sboard.SboardApplication    : Started SboardApplication in 0.428 seconds (process running for 227.257)
+2025-03-24T09:17:04.288+09:00  INFO 7724 --- [sboard] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-24T09:17:07.396+09:00  INFO 7724 --- [sboard] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/sboard]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-24T09:17:07.396+09:00  INFO 7724 --- [sboard] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-24T09:17:07.397+09:00  INFO 7724 --- [sboard] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-24T09:18:33.118+09:00  INFO 7724 --- [sboard] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-03-24T09:18:33.121+09:00  INFO 7724 --- [sboard] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-24T09:18:33.193+09:00  INFO 7724 --- [sboard] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-24T09:18:33.194+09:00  INFO 7724 --- [sboard] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-24T09:18:33.195+09:00  INFO 7724 --- [sboard] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-03-24T09:18:33.197+09:00  INFO 7724 --- [sboard] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-03-24T09:18:33.254+09:00  INFO 7724 --- [sboard] [restartedMain] kr.co.sboard.sboard.SboardApplication    : Starting SboardApplication using Java 17.0.12 with PID 7724 (C:\Users\lotte6\Desktop\Workspace\Spring\sboard\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\Workspace\Spring\sboard)
+2025-03-24T09:18:33.254+09:00  INFO 7724 --- [sboard] [restartedMain] kr.co.sboard.sboard.SboardApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-24T09:18:33.422+09:00  INFO 7724 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-24T09:18:33.425+09:00  INFO 7724 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-03-24T09:18:33.469+09:00  WARN 7724 --- [sboard] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.sboard.sboard]' package. Please check your configuration.
+2025-03-24T09:18:33.585+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-24T09:18:33.586+09:00  INFO 7724 --- [sboard] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-24T09:18:33.586+09:00  INFO 7724 --- [sboard] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-03-24T09:18:33.599+09:00  INFO 7724 --- [sboard] [restartedMain] o.a.c.c.C.[.[localhost].[/sboard]        : Initializing Spring embedded WebApplicationContext
+2025-03-24T09:18:33.600+09:00  INFO 7724 --- [sboard] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 345 ms
+2025-03-24T09:18:33.637+09:00  INFO 7724 --- [sboard] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-24T09:18:33.640+09:00  INFO 7724 --- [sboard] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-24T09:18:33.647+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-24T09:18:33.648+09:00  INFO 7724 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2025-03-24T09:18:33.658+09:00  INFO 7724 --- [sboard] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@41c686e8
+2025-03-24T09:18:33.658+09:00  INFO 7724 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2025-03-24T09:18:33.658+09:00  WARN 7724 --- [sboard] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-24T09:18:33.659+09:00  INFO 7724 --- [sboard] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-24T09:18:33.659+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@648b5961) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3d4110a0)
+2025-03-24T09:18:33.659+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@48452026) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@133c7749)
+2025-03-24T09:18:33.659+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2d42641e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@18b3b506)
+2025-03-24T09:18:33.659+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7916e226) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@9604472)
+2025-03-24T09:18:33.659+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@373cb3d4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@32a22bb0)
+2025-03-24T09:18:33.659+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7cebe810) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@77a3602b)
+2025-03-24T09:18:33.659+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@25d3cf18) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@68f9fb9)
+2025-03-24T09:18:33.659+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@25874c10) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@49c9d2b3)
+2025-03-24T09:18:33.659+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@72d96f9d) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@8514428)
+2025-03-24T09:18:33.672+09:00  INFO 7724 --- [sboard] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-24T09:18:33.673+09:00  INFO 7724 --- [sboard] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-24T09:18:33.696+09:00  WARN 7724 --- [sboard] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-24T09:18:33.710+09:00  WARN 7724 --- [sboard] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 3cbee4f9-adc7-40e4-854a-ed874913a1de
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-03-24T09:18:33.711+09:00  INFO 7724 --- [sboard] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-03-24T09:18:34.005+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-24T09:18:34.014+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/sboard'
+2025-03-24T09:18:34.018+09:00  INFO 7724 --- [sboard] [restartedMain] kr.co.sboard.sboard.SboardApplication    : Started SboardApplication in 0.785 seconds (process running for 316.988)
+2025-03-24T09:18:34.021+09:00  INFO 7724 --- [sboard] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' configure; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2025-03-24T09:18:35.449+09:00  INFO 7724 --- [sboard] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-03-24T09:18:35.450+09:00  INFO 7724 --- [sboard] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-24T09:18:35.510+09:00  INFO 7724 --- [sboard] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-24T09:18:35.512+09:00  INFO 7724 --- [sboard] [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-24T09:18:35.512+09:00  INFO 7724 --- [sboard] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2025-03-24T09:18:35.516+09:00  INFO 7724 --- [sboard] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2025-03-24T09:18:35.581+09:00  INFO 7724 --- [sboard] [restartedMain] kr.co.sboard.sboard.SboardApplication    : Starting SboardApplication using Java 17.0.12 with PID 7724 (C:\Users\lotte6\Desktop\Workspace\Spring\sboard\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\Workspace\Spring\sboard)
+2025-03-24T09:18:35.581+09:00  INFO 7724 --- [sboard] [restartedMain] kr.co.sboard.sboard.SboardApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-24T09:18:35.737+09:00  INFO 7724 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-24T09:18:35.739+09:00  INFO 7724 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-03-24T09:18:35.768+09:00  WARN 7724 --- [sboard] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.sboard.sboard]' package. Please check your configuration.
+2025-03-24T09:18:35.824+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-24T09:18:35.825+09:00  INFO 7724 --- [sboard] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-24T09:18:35.825+09:00  INFO 7724 --- [sboard] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-03-24T09:18:35.839+09:00  INFO 7724 --- [sboard] [restartedMain] o.a.c.c.C.[.[localhost].[/sboard]        : Initializing Spring embedded WebApplicationContext
+2025-03-24T09:18:35.839+09:00  INFO 7724 --- [sboard] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 256 ms
+2025-03-24T09:18:35.875+09:00  INFO 7724 --- [sboard] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-24T09:18:35.878+09:00  INFO 7724 --- [sboard] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-24T09:18:35.885+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-24T09:18:35.886+09:00  INFO 7724 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2025-03-24T09:18:35.894+09:00  INFO 7724 --- [sboard] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7924fa72
+2025-03-24T09:18:35.894+09:00  INFO 7724 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2025-03-24T09:18:35.895+09:00  WARN 7724 --- [sboard] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-24T09:18:35.895+09:00  INFO 7724 --- [sboard] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-24T09:18:35.896+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@426578b) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@737d0f81)
+2025-03-24T09:18:35.896+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2d548cf6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1a149dae)
+2025-03-24T09:18:35.896+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2cb81b68) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@37a20879)
+2025-03-24T09:18:35.896+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3e181147) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@df02c7)
+2025-03-24T09:18:35.896+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6cd03aef) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4b9616cc)
+2025-03-24T09:18:35.896+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@35fab4d0) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4dcb4192)
+2025-03-24T09:18:35.896+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@20211d86) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5b7a4f38)
+2025-03-24T09:18:35.896+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3bc62cb3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2c962d88)
+2025-03-24T09:18:35.896+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@473c8b1) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@df94488)
+2025-03-24T09:18:35.909+09:00  INFO 7724 --- [sboard] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-24T09:18:35.909+09:00  INFO 7724 --- [sboard] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-24T09:18:35.929+09:00  WARN 7724 --- [sboard] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-24T09:18:35.944+09:00  WARN 7724 --- [sboard] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 849d6e2e-1334-42b4-8a8a-de2d2e7ebf80
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-03-24T09:18:35.945+09:00  INFO 7724 --- [sboard] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-03-24T09:18:36.170+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-24T09:18:36.179+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/sboard'
+2025-03-24T09:18:36.182+09:00  INFO 7724 --- [sboard] [restartedMain] kr.co.sboard.sboard.SboardApplication    : Started SboardApplication in 0.624 seconds (process running for 319.152)
+2025-03-24T09:18:36.183+09:00  INFO 7724 --- [sboard] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-24T09:19:30.453+09:00  INFO 7724 --- [sboard] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-03-24T09:19:30.454+09:00  INFO 7724 --- [sboard] [Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-24T09:19:30.516+09:00  INFO 7724 --- [sboard] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-24T09:19:30.518+09:00  INFO 7724 --- [sboard] [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-24T09:19:30.518+09:00  INFO 7724 --- [sboard] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2025-03-24T09:19:30.522+09:00  INFO 7724 --- [sboard] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2025-03-24T09:19:30.581+09:00  INFO 7724 --- [sboard] [restartedMain] kr.co.sboard.sboard.SboardApplication    : Starting SboardApplication using Java 17.0.12 with PID 7724 (C:\Users\lotte6\Desktop\Workspace\Spring\sboard\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\Workspace\Spring\sboard)
+2025-03-24T09:19:30.581+09:00  INFO 7724 --- [sboard] [restartedMain] kr.co.sboard.sboard.SboardApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-24T09:19:30.735+09:00  INFO 7724 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-24T09:19:30.737+09:00  INFO 7724 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-03-24T09:19:30.768+09:00  WARN 7724 --- [sboard] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.sboard.sboard]' package. Please check your configuration.
+2025-03-24T09:19:30.823+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-24T09:19:30.823+09:00  INFO 7724 --- [sboard] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-24T09:19:30.823+09:00  INFO 7724 --- [sboard] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-03-24T09:19:30.839+09:00  INFO 7724 --- [sboard] [restartedMain] o.a.c.c.C.[.[localhost].[/sboard]        : Initializing Spring embedded WebApplicationContext
+2025-03-24T09:19:30.839+09:00  INFO 7724 --- [sboard] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 256 ms
+2025-03-24T09:19:30.880+09:00  INFO 7724 --- [sboard] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-24T09:19:30.883+09:00  INFO 7724 --- [sboard] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-24T09:19:30.891+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-24T09:19:30.892+09:00  INFO 7724 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2025-03-24T09:19:30.900+09:00  INFO 7724 --- [sboard] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15ad1261
+2025-03-24T09:19:30.900+09:00  INFO 7724 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2025-03-24T09:19:30.901+09:00  WARN 7724 --- [sboard] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-24T09:19:30.901+09:00  INFO 7724 --- [sboard] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-24T09:19:30.901+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@19663725) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@865ca9f)
+2025-03-24T09:19:30.902+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@75a6ffe8) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3817df92)
+2025-03-24T09:19:30.902+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@106008aa) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@36f7090b)
+2025-03-24T09:19:30.902+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@74ecf982) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@720143c2)
+2025-03-24T09:19:30.902+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@62342070) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6c85d26c)
+2025-03-24T09:19:30.902+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7f360697) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7d145e0)
+2025-03-24T09:19:30.902+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@44a5c2ca) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6717e80)
+2025-03-24T09:19:30.902+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@49bcc267) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@444f60f5)
+2025-03-24T09:19:30.902+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2e165924) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@231ea718)
+2025-03-24T09:19:30.916+09:00  INFO 7724 --- [sboard] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-24T09:19:30.916+09:00  INFO 7724 --- [sboard] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-24T09:19:30.941+09:00  WARN 7724 --- [sboard] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-24T09:19:30.957+09:00  WARN 7724 --- [sboard] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: fdb034c3-4b1c-4348-a95d-673a12b0fd46
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-03-24T09:19:30.959+09:00  INFO 7724 --- [sboard] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-03-24T09:19:31.198+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-24T09:19:31.207+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/sboard'
+2025-03-24T09:19:31.210+09:00  INFO 7724 --- [sboard] [restartedMain] kr.co.sboard.sboard.SboardApplication    : Started SboardApplication in 0.648 seconds (process running for 374.18)
+2025-03-24T09:19:31.211+09:00  INFO 7724 --- [sboard] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-24T09:19:32.636+09:00  INFO 7724 --- [sboard] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-03-24T09:19:32.637+09:00  INFO 7724 --- [sboard] [Thread-23] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-24T09:19:32.696+09:00  INFO 7724 --- [sboard] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-24T09:19:32.697+09:00  INFO 7724 --- [sboard] [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-24T09:19:32.697+09:00  INFO 7724 --- [sboard] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2025-03-24T09:19:32.700+09:00  INFO 7724 --- [sboard] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2025-03-24T09:19:32.752+09:00  INFO 7724 --- [sboard] [restartedMain] kr.co.sboard.sboard.SboardApplication    : Starting SboardApplication using Java 17.0.12 with PID 7724 (C:\Users\lotte6\Desktop\Workspace\Spring\sboard\build\classes\java\main started by lotte6 in C:\Users\lotte6\Desktop\Workspace\Spring\sboard)
+2025-03-24T09:19:32.752+09:00  INFO 7724 --- [sboard] [restartedMain] kr.co.sboard.sboard.SboardApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-03-24T09:19:32.926+09:00  INFO 7724 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-24T09:19:32.927+09:00  INFO 7724 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-03-24T09:19:32.961+09:00  WARN 7724 --- [sboard] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[kr.co.sboard.sboard]' package. Please check your configuration.
+2025-03-24T09:19:33.018+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-24T09:19:33.018+09:00  INFO 7724 --- [sboard] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-24T09:19:33.018+09:00  INFO 7724 --- [sboard] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-03-24T09:19:33.031+09:00  INFO 7724 --- [sboard] [restartedMain] o.a.c.c.C.[.[localhost].[/sboard]        : Initializing Spring embedded WebApplicationContext
+2025-03-24T09:19:33.032+09:00  INFO 7724 --- [sboard] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 279 ms
+2025-03-24T09:19:33.067+09:00  INFO 7724 --- [sboard] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-24T09:19:33.070+09:00  INFO 7724 --- [sboard] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-24T09:19:33.077+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-24T09:19:33.078+09:00  INFO 7724 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2025-03-24T09:19:33.087+09:00  INFO 7724 --- [sboard] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@668f9a05
+2025-03-24T09:19:33.087+09:00  INFO 7724 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2025-03-24T09:19:33.088+09:00  WARN 7724 --- [sboard] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-24T09:19:33.088+09:00  INFO 7724 --- [sboard] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-7)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-24T09:19:33.088+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@78786d05) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@56f09d8c)
+2025-03-24T09:19:33.088+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4c357ae5) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5a0d8721)
+2025-03-24T09:19:33.089+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6126c920) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@33e83475)
+2025-03-24T09:19:33.089+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@546d82bf) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@62ef339c)
+2025-03-24T09:19:33.089+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@35578928) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@476e586b)
+2025-03-24T09:19:33.089+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7f2e5243) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@64c6fde9)
+2025-03-24T09:19:33.089+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6d513690) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@58c99651)
+2025-03-24T09:19:33.089+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@55786b41) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@682fdb2)
+2025-03-24T09:19:33.089+09:00 DEBUG 7724 --- [sboard] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6283be44) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@76ecd75b)
+2025-03-24T09:19:33.102+09:00  INFO 7724 --- [sboard] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-24T09:19:33.102+09:00  INFO 7724 --- [sboard] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-24T09:19:33.122+09:00  WARN 7724 --- [sboard] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-24T09:19:33.137+09:00  WARN 7724 --- [sboard] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 71f10062-c54b-4e36-8558-0767613eb83a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-03-24T09:19:33.138+09:00  INFO 7724 --- [sboard] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-03-24T09:19:33.370+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-24T09:19:33.378+09:00  INFO 7724 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/sboard'
+2025-03-24T09:19:33.381+09:00  INFO 7724 --- [sboard] [restartedMain] kr.co.sboard.sboard.SboardApplication    : Started SboardApplication in 0.648 seconds (process running for 376.351)
+2025-03-24T09:19:33.382+09:00  INFO 7724 --- [sboard] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-24T09:20:50.060+09:00  INFO 7724 --- [sboard] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-24T09:20:50.124+09:00  INFO 7724 --- [sboard] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-24T09:20:50.125+09:00  INFO 7724 --- [sboard] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-24T09:20:50.126+09:00  INFO 7724 --- [sboard] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2025-03-24T09:20:50.128+09:00  INFO 7724 --- [sboard] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
